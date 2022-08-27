@@ -17,7 +17,7 @@
 
 Features for better User Experience:
 - [x] Display alert when invalid input is entered
-- [ ] Clear input after add button is clicked
+- [x] Clear input after add button is clicked
 - [ ] Keydown feature
 
 
