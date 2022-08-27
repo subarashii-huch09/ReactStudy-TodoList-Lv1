@@ -6,22 +6,10 @@ import { useState } from "react";
 function Content({ todoData, setTodoData }) {
   const [currentTab, setCurrentTab] = useState("All");
 
-  const removeItem = (e) => {
-    //  console.log(e.target.previousElementSibling.lastElementChild.textContent)
-    let toBeRemovedItem =
-      e.target.previousElementSibling.lastElementChild.textContent;
-
-    setTodoData(
-      todoData.filter((item) => {
-        return item.description !== toBeRemovedItem;
-      })
-    );
-
-    // method 2
-    //  disregard code from line11 to line18.
-    //  Use the code below.
-    //  setTodoData(todoData.filter((d)=> d.id !== item.id))
-    //  Make sure to add argument - item,  for line 78.
+  const removeItem = (item) => {
+    
+     setTodoData(todoData.filter((d)=> d.id !== item.id))
+    //  Make sure to add argument - item
     //  <button onClick={() => removeItem(item)}>X</button>
   };
 
@@ -80,7 +68,7 @@ function Content({ todoData, setTodoData }) {
                       />
                       <span>{item.description}</span>
                     </label>
-                    <button onClick={removeItem}>X</button>
+                    <button onClick={() => removeItem(item)}>X</button>
                   </li>
                 );
               })
