@@ -1,5 +1,32 @@
-# Getting Started with Create React App
 
+# React Study Group - TodoList Lv1 
+  ### React 新手證書任務
+  不需介接 API，不用做登入、註冊功能，只做代辦頁面。
+
+
+  
+1. - [x] 必做：需使用 React 框架來挑戰
+2. - [x] 必做：代辦為零筆資料時，需顯示文字「目前尚無代辦事項」
+3. - [x] 必做：新增代辦功能
+4. - [x] 必做：移除代辦功能
+5. - [x] 必做：切換代辦狀態(打勾表示已完成、未勾表示待完成)
+6. - [x] 必做：狀態頁籤切換功能(全部、待完成、已完成)
+7. - [x] 必做：確認待完成項目總數 (5 個待完成項目)
+8. - [x] 必做：清除已完成項目
+
+
+Features for better User Experience:
+- [x] Display alert when invalid input is entered
+- [ ] Clear input after add button is clicked
+- [ ] Keydown feature
+
+
+<br>
+<hr>
+<br>
+
+<details>
+<summary>Getting Started with Create React App</summary>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +95,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</details>
