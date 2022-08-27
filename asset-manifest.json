@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactStudy-TodoList-Lv1/static/css/main.01451969.css",
-    "main.js": "/ReactStudy-TodoList-Lv1/static/js/main.d973c41e.js",
+    "main.css": "/ReactStudy-TodoList-Lv1/static/css/main.31ef780c.css",
+    "main.js": "/ReactStudy-TodoList-Lv1/static/js/main.d08aae28.js",
     "static/js/787.97a945da.chunk.js": "/ReactStudy-TodoList-Lv1/static/js/787.97a945da.chunk.js",
+    "static/media/empty-bg.png": "/ReactStudy-TodoList-Lv1/static/media/empty-bg.3d9709e802a2248ad2b7.png",
     "index.html": "/ReactStudy-TodoList-Lv1/index.html",
-    "main.01451969.css.map": "/ReactStudy-TodoList-Lv1/static/css/main.01451969.css.map",
-    "main.d973c41e.js.map": "/ReactStudy-TodoList-Lv1/static/js/main.d973c41e.js.map",
+    "main.31ef780c.css.map": "/ReactStudy-TodoList-Lv1/static/css/main.31ef780c.css.map",
+    "main.d08aae28.js.map": "/ReactStudy-TodoList-Lv1/static/js/main.d08aae28.js.map",
     "787.97a945da.chunk.js.map": "/ReactStudy-TodoList-Lv1/static/js/787.97a945da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01451969.css",
-    "static/js/main.d973c41e.js"
+    "static/css/main.31ef780c.css",
+    "static/js/main.d08aae28.js"
   ]
 }
