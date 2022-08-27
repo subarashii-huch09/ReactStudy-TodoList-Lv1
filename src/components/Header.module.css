@@ -1,0 +1,21 @@
+.headerTitle{
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 0;
+}
+
+.listItem {
+  padding: 0.75rem 1rem;
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+
+.logOutButton {
+  border:none;
+  background:none;
+  font-size: 1.125rem;
+}
