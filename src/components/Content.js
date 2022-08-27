@@ -2,6 +2,7 @@ import TodoListTab from "./TodoListTab";
 import styles from "./Content.module.css";
 import Swal from "sweetalert2";
 import { useState } from "react";
+import emptyImage from "../img/empty-bg.png"
 
 function Content({ todoData, setTodoData }) {
   const [currentTab, setCurrentTab] = useState("All");
@@ -37,7 +38,12 @@ function Content({ todoData, setTodoData }) {
   };
 
   const EmptyItem = () => {
-    return <p className={styles.empty}>目前尚無代辦事項</p>;
+    return (
+      <div className={styles.empty}>
+        <p className={styles.emptyMessage}>目前尚無代辦事項</p>;
+        <img src={emptyImage} alt="emptyImage"/>
+      </div>
+    );
   };
 
   return (
