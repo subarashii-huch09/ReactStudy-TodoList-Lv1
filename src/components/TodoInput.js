@@ -14,7 +14,7 @@ const TodoInput = ({ input, setInput, todoData, setTodoData }) => {
       console.log(input)
       setTodoData(() => [
         ...todoData,
-        { id: Date.now() + Math.random(), description: input, done: false },
+        { id: (Date.now() + Math.floor(Math.random() * 1000)), description: input, done: false },
       ]);
       setInput("");
       
